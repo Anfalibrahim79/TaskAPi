@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 mongoose.set('strictQuery', true);
 
-mongoose.connect('mongodb://an0709:123123@localhost:27017/listProduct?authSource=admin')
+mongoose.connect('mongodb://mongo:7GI3GzvbKEnY8c7F2knV@containers-us-west-82.railway.app:7039')
 
 const db = mongoose.connection
 db.on('error', () => console.log('conection error'))
